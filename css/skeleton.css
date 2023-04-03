@@ -45,7 +45,8 @@
 @media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; }
+    padding: 0;
+  }
 }
 
 /* For devices larger than 550px */
@@ -108,7 +109,9 @@
   .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
 
   .offset-by-one-half.column,
-  .offset-by-one-half.columns     { margin-left: 52%; }
+  .offset-by-one-half.columns     {
+    margin-left: 52%; 
+  }
 
 }
 
